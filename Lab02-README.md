@@ -1,7 +1,7 @@
 ## Adaptive strategy
 A genome is a pair of float numbers, in my code encoded as a dict, with two fields: 
-  - '''row''': represents the "percentage" of row to take (i.e. '''row'''=0.5 and #rows=6, elements will be taken from the third row)
-  -  '''elements''': represents the percentage of elements to take (i.e. '''elements'''=0.6 and the considered row has 5 elements, we'll take 3 elements)
+  - ~~~row~~~: represents the "percentage" of row to take (i.e. '''row'''=0.5 and #rows=6, elements will be taken from the third row)
+  -  ~~~elements~~~: represents the percentage of elements to take (i.e. '''elements'''=0.6 and the considered row has 5 elements, we'll take 3 elements)
 
 The code is written such that empty rows are discarded in the computation.
 Three slightly different versions:
