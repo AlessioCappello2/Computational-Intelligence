@@ -18,7 +18,7 @@ I decided to use the Island Method: some populations are left evolving in parall
 * ```ISLANDS```: number of islands/populations evolving in parallel
 * ```MIGRATE```: migration rate (in terms of iterations)
 
-## The class Island
+## The Island class
 In order to simplify things, I decided to create a class named ```Island```, composed of an ```id``` and the ```population``` (a list of ```Individual```).
 Major functions of this class:
 * ```step```: this function makes the population evolve and, since islands are not really running in parallel, it's made for ```MIGRATE``` iterations
