@@ -20,6 +20,7 @@ the q-table and load it for a subsequent test run.
 I evaluated the agents against the ```RandomPlayer``` provided: for the two MinMax implementations I got a winrate of 100%, while for the Q-Learning here are the best results I got:
 - as first player: winrate 68.7 %
 - as second player: winrate 58.9 % \
+
 This is due to the huge number of possible configurations: without considering symmetries there are $3^{25}$ combinations. Considering the symmetries wouldn't help so much (just reducing this number of an 8-factor).
 I trained the Q-Learning for 300k episodes due to limited computational resources.
 
